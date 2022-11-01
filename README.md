@@ -23,7 +23,7 @@ In this Overture repository, we (the [OICR Genome Informatics Team](https://soft
 
 <br />
 
-<img width="22%" align="left" alt="Data transfer and storage" src="Score-padded.png">
+<img width="22%" align="left" alt="Data transfer and storage" src="score-padded.png">
 
 Using the Score client, data providers upload files to their cloud storage system. Conversely, published data gets downloaded by data consumers.
 
@@ -52,20 +52,12 @@ Score is a data transfer management system that focuses on data uploads and down
 
 ## Table of Contents
 
-- [Quick Start](#quickstart)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contribution](#how-to-contribute)
 - [Feedback](#feedback)
 - [Code of Conduct](#code-of-conduct)
 - [License](#license)
-
-
-## Quick Start
-
-This is a step-by-step guide for setting up a dockerized version of Ego. See our [setup section](#setup) below for a comprehensive setup guide.
-
-**1.** Set up a google oauth client app ([see here](https://www.overture.bio/documentation/ego/installation/prereq/#google)). 
 
 ## Setup
 
