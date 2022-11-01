@@ -15,48 +15,40 @@
 
 In this Overture repository, we (the [OICR Genome Informatics Team](https://softeng.oicr.on.ca/team/)) develop the [Score](https://www.overture.bio/products/score/) data transfer and storage microservice. 
 
-[Overture](https://www.overture.bio/) is an ensemble of open-source, modular solutions made for big-data genomic science. Our core products work in concert to manage, explore and visualize molecular and clinical data. Visit our [website](https://www.overture.bio/) for more information on what Overture has to offer, and check out our other projects on [GitHub](https://github.com/overture-stack/).
+[Overture](https://www.overture.bio/) is an ensemble of open-source, modular solutions for big-data genomic science. Our core products work in concert to manage, explore and visualize molecular and clinical data. Visit our [website](https://www.overture.bio/) for more information on what Overture offers, and check out our other projects on [GitHub](https://github.com/overture-stack/).
 
 ## Score - Seamless Data Transfer & Storage
 
-
-
 <!--State the problem-->
-
-
 
 <br />
 
-<img width="22%" align="left" alt="Data transfer and storage" src="Score-padded.png">
+<img width="22%" align="left" alt="Data transfer and storage" src="score-padded.png">
 
-Using the Score client data providers can upload files to their cloud storage system. Conversly, published data can be downloaded by data consumers. 
+Using the Score client, data providers upload files to their cloud storage system. Conversely, published data gets downloaded by data consumers.
 
-With the decreasing cost of sequencing, research groups are generating large [multi-omics](https://www.illumina.com/techniques/popular-applications/multiomics.html#:~:text=Multiomics%20approaches%20that%20combine%20methylation,complex%20pathways%20and%20disease%20mechanisms.) data sets for various cancer types. Along side this molecular data is an ever increasing amount of paired clinical data including but not limited to patient records, histological imagery and radiological imagery. Furthermore, much of this data is geographically distributed and inaccessible to the global research community. Therefore, the cancer research community requires new and innovative data management and data sharing tools.
+With the falling cost of sequencing, research organizations are producing enormous multi-omics data sets for many cancer types. Along with this molecular data comes a growing amount of matched clinical data, such as patient records, histology images, and radiographic imagery. Furthermore, the global research community cannot access a large portion of this data due to its geographic distribution. Therefore, cancer researchers require new and innovative data management and data-sharing tools.
 
 <!--State our solution-->
 <!--Do we have any statistics for this?-->
 
 <!--Provide a brief outline of how/what we do to reach this solution-->
 
-**Score was developed to address these issues by:**
-- Securley managing fast data uploads/downloads to any cloud based storage system
-- Facilitating file Bundling as well as multi-part, parallel and resumable uploads/downloads
-- Providing built-in slicing of BAM/CRAM files with integrated command line tools
-- Ensuring data integrety with MD5sum verification
+**We created Score to solve these concerns by:**
+- Managing secure and fast data uploads/downloads to any cloud-based storage system
+- Facilitating file bundling and resumable uploading and downloading
+- Providing built-in slicing of BAM and CRAM files with integrated command line tools
+- Using MD5sum verification to ensure data integrity
 
 <!--Where has it been used-->
 
-Score has been implemented in multiple projects. This includes the Cancer Genome Collaboratory which uses Score along with Song ([see related products](#related-products)) to manage over 1 petabyte of raw and interpreted data (121,000 files).
-
-
-<!--This is one of many partnered projects, in perspective, it is approximated that 50 petabytes can hold the entire written works of mankind, through all of recorded history, in every language.-->
-
+Score is used in various initiatives, including the Cancer Genome Collaboratory, which employs Score and Song ([see related products](#related-products)) to manage nearly 1 petabyte of raw and analyzed data (121,000 files).
 
 ## Related Products 
 
 <p align="left" ><img alt="Overture overview" src="https://www.overture.bio/static/124ca0fede460933c64fe4e50465b235/a6d66/system-diagram.png"></p>
 
-As a data transfer management system, Score is focused on managing data upload and download, and does not handle the complexities of file metadata validation. To handle this, Score is built to interact with a required companion application, [Song](). Song is responsibe for validating file metadata, assigning unique global identifiers for data management, assigning permisssions for open (public) versus controlled (authentication required) file access. As Song manages metadata, it communicates with Score which manages the files on an object storage system. By defining new metadata shemas, all file types (sequencing read, variant calls, radiology imagies) can be supported through Song.
+Score is a data transfer management system that focuses on data uploads and downloads rather than the intricacies of file metadata validation. Score works with a companion program, Song, to address this. Song is responsible for evaluating file information, assigning unique global identifiers, and determining open versus controlled file access permissions. As Song manages metadata, it communicates with Score, which handles the files on an object storage system. 
 
 ## Table of Contents
 
