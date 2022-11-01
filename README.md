@@ -19,13 +19,7 @@ In this Overture repository, we (the [OICR Genome Informatics Team](https://soft
 
 ## Score - Seamless Data Transfer & Storage
 
-
-
 <!--State the problem-->
-
-
-
-<br />
 
 <img width="25%" align="left" alt="Data transfer and storage" src="Score-padded.png">
 
