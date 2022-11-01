@@ -19,7 +19,13 @@ In this Overture repository, we (the [OICR Genome Informatics Team](https://soft
 
 ## Score - Seamless Data Transfer & Storage
 
+
+
 <!--State the problem-->
+
+
+
+<br />
 
 <img width="22%" align="left" alt="Data transfer and storage" src="Score-padded.png">
 
@@ -32,19 +38,18 @@ With the decreasing cost of sequencing, research groups are generating large [mu
 
 <!--Provide a brief outline of how/what we do to reach this solution-->
 
-Score was developed to address these issues by:
+**Score was developed to address these issues by:**
 - Securley managing fast data uploads/downloads to any cloud based storage system
 - Facilitating file Bundling as well as multi-part, parallel and resumable uploads/downloads
 - Providing built-in slicing of BAM/CRAM files with integrated command line tools
 - Ensuring data integrety with MD5sum verification
 
-Currently Score, along with Song ([see related products](#related-products)) manages over 1 petabyte of raw and interpreted data (121,000 files) on the Cancer Genome Collaboratory alongside Amazon S3. 
+<!--Where has it been used-->
+
+Score has been implemented in multiple projects. This includes the Cancer Genome Collaboratory which uses Score along with Song ([see related products](#related-products)) to manage over 1 petabyte of raw and interpreted data (121,000 files).
 
 
 <!--This is one of many partnered projects, in perspective, it is approximated that 50 petabytes can hold the entire written works of mankind, through all of recorded history, in every language.-->
-
-
-
 
 
 ## Related Products 
