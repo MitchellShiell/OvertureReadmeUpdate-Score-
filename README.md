@@ -23,8 +23,6 @@ In this Overture repository, we (the [OICR Genome Informatics Team](https://soft
 
 <img width="22%" align="left" alt="Data transfer and storage" src="Score-padded.png">
 
-Using the Score client, data providers upload files to their cloud storage system. Conversely, published data gets downloaded by data consumers.
-
 With the falling cost of sequencing, research organizations are producing enormous multi-omics data sets for many cancer types. Along with this molecular data comes a growing amount of matched clinical data, such as patient records, histology images, and radiographic imagery. Furthermore, the global research community cannot access a large portion of this data due to its geographic distribution. Therefore, cancer researchers require new and innovative data management and data-sharing tools.
 
 <!--State our solution-->
