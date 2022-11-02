@@ -21,8 +21,6 @@ In this Overture repository, we (the [OICR Genome Informatics Team](https://soft
 
 <!--State the problem-->
 
-<br />
-
 <img width="22%" align="left" alt="Data transfer and storage" src="Score-padded.png">
 
 Using the Score client, data providers upload files to their cloud storage system. Conversely, published data gets downloaded by data consumers.
