@@ -23,7 +23,7 @@ In this Overture repository, we (the [OICR Genome Informatics Team](https://soft
 
 <br />
 
-<img width="22%" align="left" alt="Data transfer and storage" src="Score-padded.png">
+<img width="22%" align="left" alt="Data transfer and storage" src="score-padded.png">
 
 Using the Score client, data providers upload files to their cloud storage system. Conversely, published data gets downloaded by data consumers.
 
@@ -38,7 +38,7 @@ With the falling cost of sequencing, research organizations are producing enormo
 - Managing secure and fast data uploads/downloads to any cloud-based storage system
 - Facilitating file bundling and resumable uploading and downloading
 - Providing built-in slicing of BAM and CRAM files with integrated command line tools
-- Using MD5sum verification to ensure data integrity
+- Using [MD5sum](https://www.intel.com/content/www/us/en/support/programmable/articles/000078103.html) verification to ensure data integrity
 
 <!--Where has it been used-->
 
@@ -48,7 +48,7 @@ Score is used in various initiatives, including the Cancer Genome Collaboratory,
 
 <p align="left" ><img alt="Overture overview" src="https://www.overture.bio/static/124ca0fede460933c64fe4e50465b235/a6d66/system-diagram.png"></p>
 
-Score is a data transfer management system that focuses on data uploads and downloads rather than the intricacies of file metadata validation. Score works with a companion program, Song, to address this. Song is responsible for evaluating file information, assigning unique global identifiers, and determining open versus controlled file access permissions. As Song manages metadata, it communicates with Score, which handles the files on an object storage system. 
+[Score](https://www.overture.bio/products/score/) is a data transfer management system that focuses on data uploads and downloads rather than the intricacies of file metadata validation. Score works with a companion program, [Song](https://github.com/overture-stack/SONG), to address this. Song is responsible for evaluating file information, assigning unique global identifiers, and determining open versus controlled file access permissions. As Song manages metadata, it communicates with Score, which handles the files on an object storage system. 
 
 ## Table of Contents
 
